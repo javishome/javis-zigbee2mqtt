@@ -58,8 +58,16 @@
       "options": "-d -d",
       "log": false
     },
-    "mqtt": {},
-    "serial": {}
+    "mqtt": {
+      "base_topic": "zigbee2mqttjavis",
+      "server": "mqtt://core-mosquitto",
+      "user": "javis",
+      "password": "javis2020"
+    },
+    "serial": {
+      "port": "tcp://192.168.1.10:8888",
+      "adapter": "ember"
+    }
   },
   "schema": {
     "data_path": "str",
