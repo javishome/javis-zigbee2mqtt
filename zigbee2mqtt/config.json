@@ -96,7 +96,11 @@
       "baudrate": "int?",
       "rtscts": "bool?"
     },
+    "advanced": {
+      "channel": "int(11,26)?"
+    },
     "watchdog": "str?"
+    
   },
   "image": "zigbee2mqtt/zigbee2mqtt-{arch}"
 }
