@@ -58,6 +58,9 @@
       "options": "-d -d",
       "log": false
     },
+    "advanced": {
+      "channel": 14
+    },
     "mqtt": {
       "base_topic": "zigbee2mqttjavis",
       "server": "mqtt://core-mosquitto",
@@ -67,9 +70,6 @@
     "serial": {
       "port": "/dev/ttyUSB0",
       "adapter": "zstack"
-    },
-    "advanced": {
-      "channel": 14
     }
   },
   "schema": {
