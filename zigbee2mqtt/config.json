@@ -39,11 +39,6 @@
       "type": "addon_config",
       "read_only": false,
       "path": "/addon_config"
-    },
-    {
-      "type": "addons",
-      "read_only": false,
-      "path": "/addons"
     }
   ],
   "ports": {
@@ -63,17 +58,8 @@
       "options": "-d -d",
       "log": false
     },
-    "advanced": {
-      "channel": 14
-    },
-    "mqtt": {
-      "base_topic": "zigbee2mqttjavis",
-      "server": "mqtt://core-mosquitto",
-      "user": "javis",
-      "password": "javis2020"
-    },
-    "serial": {
-    }
+    "mqtt": {},
+    "serial": {}
   },
   "schema": {
     "data_path": "str",
@@ -99,11 +85,7 @@
       "baudrate": "int?",
       "rtscts": "bool?"
     },
-    "advanced": {
-      "channel": "int(11,26)?"
-    },
     "watchdog": "str?"
-    
   },
   "image": "zigbee2mqtt/zigbee2mqtt-{arch}"
 }
