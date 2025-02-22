@@ -73,8 +73,6 @@
       "password": "javis2020"
     },
     "serial": {
-      "port": "/dev/ttyUSB0",
-      "adapter": "zstack"
     }
   },
   "schema": {
