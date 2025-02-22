@@ -39,6 +39,11 @@
       "type": "addon_config",
       "read_only": false,
       "path": "/addon_config"
+    },
+    {
+      "type": "addons",
+      "read_only": false,
+      "path": "/addons"
     }
   ],
   "ports": {
